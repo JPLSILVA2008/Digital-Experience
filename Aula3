@@ -1,0 +1,12 @@
+Portas Lógicas:
+
+1-AND --> receberá duas entradas --> x= axb só sera x=1 quando a e b for 1
+2-OR --> receberá duas entradas --> x= a+b só sera x=1 quando a ou b for 1
+3-Not --> receberá uma entradas --> a=0 x=1 e a=1 x=0 --> marcada por um círculo 
+4-Nand --> receberá duas entradas --> x= axb e depois inverte (AND + Not)
+5-Nor --> receberá duas entradas -->  x= a+b e depois inverte (OR + Not)
+
+Circuitos Combinacionais:
+
+Combinam as Portas Lógicas --> se o resultado for x=1 a lâmpada acende se for x=0 a lâmpada não acende
+Quando for fazer a Tabela Verdade disto coloque também as Portas Lógicas (Não só o resultado final)
