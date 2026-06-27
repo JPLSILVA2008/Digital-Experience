@@ -1,0 +1,23 @@
+Expressões Booleanas:
+
+Mostra como circuito lógicos manipulam sinais digitais
+EX: imagine um circuito em que AxB e depois +c= A Expressão Booleanas disso é X=(axb)+c
+Ordem de preferência= ()--> Not --> AND --> OR (Primeiro para Último)
+1. Realize as inversões de termos simples
+2. Realize as operações dentro de parênteses
+3. Realize as operações AND antes das operações OR, a menos que os parênteses indiquem o contrário
+4. Se uma expressão tiver uma barra sobre, realize a operação indicada pela expressão e, em seguida, inverta o resultado
+
+Para realizar a Tabela Verdade:
+1. Cria-se o quadro com todas as possibilidades de valores para as entradas
+2. Criam-se colunas para os vários membros da expressão
+3. Preenche-se as colunas com os resultados parciais de cada membro
+4. Cria-se uma coluna para o resultado final
+5. Preenche-se a coluna com o resultado final
+
+Para extrair a Expressão Booleanas da Tabela Verdade:
+1. Identifica-se as saídas iguais a 1
+2. Nessas linhas, obtêm-se expressões AND considerando as entradas:
+a. Normal se entrada igual a 1
+b. Com barra (negação) se a entrada é igual a 0
+3. Aplica-se operador OR em todas as expressões
