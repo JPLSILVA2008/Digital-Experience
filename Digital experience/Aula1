@@ -1,0 +1,44 @@
+Sistemas Digitais:
+
+utilizaremos números binários(0 e 1)
+Ex: Um circuito liga se estiver 1,se for 0 estará desligado
+
+Sistemas númericos:
+
+Decimal = Base 10 --> 0,1,2,3,4,5,6,7,8,9; Cada posição representa uma potência de 10
+Ex:254 --> 2x10^2 + 5x10^1 + 4x10^0
+
+Binários = Base 2 --> 0 e 1;Cada posição representa uma potência de 2
+Ex:1011 --> 1x2^3 + 0x2^2 + 1x2^1 + 1x1^0 = 11
+
+Octal = Base 8 --> 0,1,2,3,4,5,6,7; ; Cada posição representa uma potência de 8
+Ex: 17 --> 1x8^1 + 0x8^0 = 15
+
+Hexadecimal = Base 16 --> 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F; Cada posição representa uma potência de 16
+Ex: 1A --> 1x16^1 + 10x16^0 = 26
+
+Sistemas Binários:
+Bit = Menor unidade possível de armazenamento(2^8-->256 possiblidades 0 á 255)
+
+Conversão de Bases:
+
+Decimal para Binário --> divide por 2
+Ex: 34 --> 100010
+
+Decimal para Octal --> divide por 8 
+Ex: 2834 --> 5422
+
+Decimal para Hexadecimal --> divide por 16
+Ex: 2834 --> B12
+
+Binário para Decimal --> Multiplica por 2 
+Ex: 100010 --> 34
+
+Octal para Hexadecimal --> Multiplica por 8
+Ex: 5422 --> 2834
+
+Hexadecimal para Decimal --> Multiplica por 16
+Ex: B12 --> 2834
+
+Complemento de Dois:
+Inverta todos os bits o que é 1 vira 0 e vice versa e depois adiciona 1 no resultado 

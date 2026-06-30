@@ -1,0 +1,48 @@
+Aritmética Binária:
+
+Sistema de cálculo utilizado em números binários (0 e 1)
+
+Adição de números binários:
+1.Começe pelo dígito menos significativo (bit mais a direita)
+2.Somam-se os dígitos de dois em dois
+3. Se o valor da soma superar o valor da base, existe um vai 1
+(bit de transporte), denominado de carry, que deve ser
+somado aos próximos dois dígitos 
+No caso da base binária, a soma de dois bits pode resultar em
+apenas quatro casos:
+○ 0 + 0 = 0
+○ 1 + 0 = 1
+○ 1 + 1 = 10 resultado: 0 + carry 1 para a próxima posição
+○ 1 + 1 +1 = 11 resultado: 1 + carry 1 para a próxima posição
+
+Subtração de números binários:
+1. Começe pelo dígito menos significativo (bit mais a direita)
+2. Subtraem-se os dígitos de dois em dois
+3. Se precisar subtrair 1 de 0 (0-1), pegue emprestado do
+próximo bit à esquerda
+No caso da base binária, a subtração de dois bits pode resultar
+em apenas quatro casos:
+○ 0 - 0 = 0
+○ 1 - 0 = 1
+○ 1 - 1 = 0
+○ 0 - 1 = 1 (com empréstimo da próxima coluna) 
+Outra forma de realizar a subtração, é utilizando a operação de
+adição, considerando que um dos números é negativo
+● Exemplo na base decimal:
+○ 7 - 3, pode ser representado como 7 + (-3)
+■ Ambas as contas terá como resultado 4
+
+Multiplicação de números binários:
+No caso da base binária, a multiplicação de dois bits pode
+resultar em apenas quatro casos:
+○ 0 x 0 = 0
+○ 0 x 1 = 0
+○ 1 x 0 = 0
+○ 1 x 1 = 1
+
+Divisão de números binários:
+Envolve subtrair repetidamente o divisor do dividendo, deslocando
+os bits conforme necessário
+
+
+

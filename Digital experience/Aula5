@@ -1,0 +1,34 @@
+Teoremas Booleanas:
+
+Usada para simplificar, analisar e transformar expressões Booleanas
+1. Teorema da Identidade
+A+0 = A
+Ax1 = A
+2. Teorema da Anulação
+A+1 = 1
+Ax0 = 0
+3. Teorema da Idempotência
+A+A = A
+AxA = A
+4. Teorema do Complemento
+A+A = 1
+AxA = 0
+5. Teorema da Involução (Dupla Negação)
+A = A
+6. Teorema da Comutatividade
+A+B = B+A
+AxB = BxA
+7. Teorema da Associatividade
+(A+B)+C = A+(B+C)
+(AxB)xC = Ax(BxC)
+8. Teorema da Distributividade
+Ax(B+C) = (AxB) + (AxC)
+A + (BxC) = (A+B) x (A+C)
+9. Teorema da Absorção
+A+(AxB) = A
+Ax(A+B) = A
+10. Teoremas de De Morgan
+(AxB) = A+B
+(A+B) = AxB
+
+Podemos simplificar muito as Expressões Booleanas   

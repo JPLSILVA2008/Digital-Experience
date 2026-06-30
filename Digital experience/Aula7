@@ -1,0 +1,7 @@
+Portas Lógicas Avançadas:
+
+Porta XOR --> Saira 1 sempre quando as duas entradas estiverem em níveis opostos 
+Expressão Booleanas --> x = A Círculo + B
+
+Porta XNOR Saira 1 sempre quando as duas entradas estiverem em níveis iguais 
+Expressão Booleanas --> x = A Círculo . B

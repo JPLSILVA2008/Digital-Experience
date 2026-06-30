@@ -1,0 +1,22 @@
+Mapa de Karnaugh:
+
+Usado para simplificar uma equação lógica 
+Criamos ela a partir da Tabela Verdade 
+EX:
+   A B X 
+   0 0 1 --> AxB(invertido)
+   0 1 0                                                           Mapa de Karnaugh: B(invertido) B
+   1 0 0                                                                 A(invertido)1            0
+   1 1 1 --> AxB                    X=AXB(invertido) + AXB                         A 0            1
+
+Agrupamento de Quadros:
+
+Esse Agrupamento tem q ser sempre 2**N -->1,2,4,8...
+Se dois elemntos estiverem juntos pode Agrupar caso contrario não 
+
+Condição de irrelevância:
+
+Quando uma Saída X não é especificada(nem 0 e nem 1)--> então ela é representada por x
+No Mapa de Karnaugh usa essa condição para agrupar grupos que produzem expressões mais simples
+
+  

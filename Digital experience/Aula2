@@ -1,0 +1,19 @@
+Sistemas Digitais:
+
+Representação analógica --> faixa contínua de valores
+Representação Digitais --> varia em números limitado de valores discretos
+
+Circuitos Digitais:
+
+Funcionam com tensões que variam entre 0(baixa tensão) e 1(alta tensão)
+Ex: -_-_---__=1010111
+Ex: 1-tem corrente elétrica e 0- não tem corrente elétrica
+
+Tabela Verdade:
+
+Mostra todas as possiblidades do circuito
+Ex: A B x1 --> 2x2= 4 possiblidades
+    0 0 0
+    0 1 1
+    1 0 1
+    1 1 1

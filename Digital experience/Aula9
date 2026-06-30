@@ -1,0 +1,50 @@
+Os circuitos aritméticos são circuitos digitais responsáveis por realizar operações matemáticas com números binários. Eles são fundamentais em computadores, calculadoras, microprocessadores e diversos sistemas digitais.
+
+As principais operações realizadas são:
+
+* **Adição**
+* **Subtração**
+* **Incremento** (somar 1)
+* **Decremento** (subtrair 1)
+* Em alguns casos, também **multiplicação** e **divisão**.
+
+#### Meio Somador (Half Adder)
+
+É um circuito que soma dois bits de entrada (A e B). Possui duas saídas:
+
+* **Soma (S)** = A ⊕ B (porta XOR)
+* **Carry (C)** = A · B (porta AND)
+
+#### Somador Completo (Full Adder)
+
+Soma três bits: A, B e o **carry de entrada (Cin)**.
+Possui duas saídas:
+
+* **Soma (S)** = A ⊕ B ⊕ Cin
+* **Carry de saída (Cout)** = AB + ACin + BCin
+
+#### Somador Paralelo
+
+É formado pela ligação de vários somadores completos em sequência, permitindo somar números de vários bits (4, 8, 16, 32 bits etc.).
+
+#### Subtrator
+
+Realiza a subtração entre números binários. Pode ser implementado diretamente ou utilizando o **complemento de dois**, que transforma a subtração em uma operação de soma.
+
+#### Complemento de Dois
+
+É o método mais utilizado para representar números negativos em binário. Para obtê-lo:
+
+1. Inverte-se todos os bits.
+2. Soma-se 1 ao resultado.
+
+#### Unidade Lógica e Aritmética (ULA)
+
+A **ULA (Unidade Lógica e Aritmética)** é o bloco do processador responsável por executar operações aritméticas e lógicas. Além das somas e subtrações, também realiza operações como **AND**, **OR**, **XOR**, comparações e deslocamentos de bits.
+
+### Importância
+
+Os circuitos aritméticos são essenciais para o funcionamento dos sistemas digitais, pois permitem que computadores e dispositivos eletrônicos realizem cálculos, processem informações e executem programas de forma rápida e eficiente.
+
+
+
