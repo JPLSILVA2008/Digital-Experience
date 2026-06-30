@@ -1,0 +1,4 @@
+O **MUX (Multiplexador)** e o **DEMUX (Demultiplexador)** são circuitos digitais utilizados para controlar o fluxo de dados.
+O multiplexador (MUX) seleciona uma entre várias entradas e a direciona para uma única saída, utilizando linhas de seleção para determinar qual entrada será transmitida.
+Já o demultiplexador (DEMUX) realiza o processo inverso: recebe um único sinal de entrada e o encaminha para uma entre várias saídas, também de acordo com as linhas de seleção.
+Esses circuitos são amplamente utilizados em sistemas digitais, redes de comunicação, transmissão de dados, processadores e sistemas de controle, pois permitem otimizar o uso de canais e organizar o tráfego de informações de forma eficiente.
